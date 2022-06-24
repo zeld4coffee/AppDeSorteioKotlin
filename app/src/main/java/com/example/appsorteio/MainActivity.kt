@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun sortearNumero(view: View) {
-        var texto = findViewById<TextView>(R.id.textView)
+        val texto = findViewById<TextView>(R.id.textView)
         var numeroSorteado = Random.nextInt(11)
         texto.text = "O número sorteado é: " + numeroSorteado
     }
